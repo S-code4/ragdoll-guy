@@ -12,14 +12,16 @@ Material:
     type: 3}
   m_ValidKeywords:
   - TCP2_SHADOW_LIGHT_COLOR
+  - _ALPHAPREMULTIPLY_ON
   - _RECEIVE_SHADOWS_OFF
   m_InvalidKeywords:
   - TCP2_UV_NORMALS_FULL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -96,7 +98,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DirectIntensityOutline: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _EmissionChannel: 4
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
@@ -122,7 +124,7 @@ Material:
     - _RampThreshold: 0.664
     - _ReceiveShadows: 1
     - _ReceiveShadowsOff: 0
-    - _RenderingMode: 0
+    - _RenderingMode: 2
     - _ShadowColorLightAtten: 1
     - _SingleIndirectColor: 0
     - _Smoothness: 0.5
@@ -137,9 +139,9 @@ Material:
     - _UseOutline: 0
     - _UseShadowTexture: 0
     - _WorkflowMode: 1
-    - _ZWrite: 1
+    - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.1607843, b: 0.38489667, a: 1}
+    - _BaseColor: {r: 1, g: 0.1607843, b: 0.38489667, a: 0.40392157}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HColor: {r: 1, g: 1, b: 1, a: 1}
